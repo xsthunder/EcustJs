@@ -1,0 +1,27 @@
+{
+  "name": "add_course_to_google_calendar",
+  "version": "1.0.0",
+  "description": "for ecust using gapi ans js",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xsthunder/addCourseToGoogleCalendar.git"
+  },
+  "keywords": [
+    "js",
+    "gapi"
+  ],
+  "author": "xsthunder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xsthunder/addCourseToGoogleCalendar/issues"
+  },
+  "homepage": "https://github.com/xsthunder/addCourseToGoogleCalendar#readme"
+}
