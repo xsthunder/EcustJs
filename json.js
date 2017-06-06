@@ -12,7 +12,7 @@
 */
 function parseCourse(o){
 	var obj={};
-	
+	obj["colorId"]='5';
 	obj['summary']=o.courseName;
 	obj['location']=o.location;
 	obj['description']='教师:'+o.teacherName+
