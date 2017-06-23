@@ -10,6 +10,8 @@ var doc = document;
 var btngen = doc.createElement("Button");
 btngen.id = 'btngen';
 btngen.innerText = 'btngen';
+
+doc.childNodes[0].childNodes[2].appendChild(btngen);
 btngen.onclick = function () {/*
 var doc = document;
 var tb = doc.getElementsByTagName('tbody');
@@ -270,4 +272,3 @@ inp.value=(JSON.stringify(es));
 
 doc.childNodes[0].childNodes[2].appendChild(inp);
 }
-doc.childNodes[0].childNodes[2].appendChild(btngen);
