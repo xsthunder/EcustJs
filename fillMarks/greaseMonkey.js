@@ -9,6 +9,7 @@
 //excel格式:第一列学号,第二列姓名,第三列平时成绩,第四列考试成绩
 var doc = document;
 var students={};
+var showAlert=alert;
 var btnfill = doc.createElement("Button");
 btnfill.id = 'btnfill';
 btnfill.innerText = 'btnfill';
