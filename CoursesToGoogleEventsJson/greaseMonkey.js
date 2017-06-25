@@ -5,6 +5,8 @@
 // @version     1
 // @grant       none
 // ==/UserScript==
+//http://github.com/xsthunder
+//coding = utf-8
 //add a button
 var doc = document;
 var btngen = doc.createElement("Button");
