@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name        courseToGoogleEventJson
 // @namespace   courseToGoogleEventJson
-// @include     http://202.120.108.14/ecustedu/E_SelectCourse/ScInFormation/syllabus.aspx
+// @include     http://inquiry.ecust.edu.cn/ecustedu/E_SelectCourse/ScInFormation/syllabus.aspx
 // @version     1
 // @grant       none
 // ==/UserScript==
 //http://github.com/xsthunder
 //coding = utf-8
 //add a button
+//更新@include 在2017年7月8日
 var doc = document;
 var btngen = doc.createElement("Button");
 btngen.id = 'btngen';

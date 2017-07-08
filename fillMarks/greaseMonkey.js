@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name        fillMarks
 // @namespace   fillMarks
-// @include     http://202.120.108.14/ecustedu/H_ScoreAdmin/scoreinput.aspx
+// @include     http://59.78.108.120/ecustedu/H_ScoreAdmin/scoreinput.aspx
 // @version     1
 // @grant       none
 // ==/UserScript==
 //http://202.120.108.14/ecustedu/H_ScoreAdmin/scoreinput.aspx
 //excel格式:第一列学号,第二列姓名,第三列平时成绩,第四列考试成绩
+//如果录入系统更改需要改变@include 改为 课程成绩录入核对对应的url，@include 在2017年7月8日更新
+
 var doc = document;
 var students={};
 var showAlert=alert;
